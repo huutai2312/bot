@@ -1,1 +1,1 @@
-abc Tue 31 Dec 2019
+abc Wed 01 Jan 2020
