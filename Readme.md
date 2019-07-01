@@ -1,1 +1,1 @@
-abc Sun 30 Jun 2019
+abc Mon 01 Jul 2019
