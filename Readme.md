@@ -1,1 +1,1 @@
-abc Wed 01 Jul 2020
+abc Thu 02 Jul 2020
