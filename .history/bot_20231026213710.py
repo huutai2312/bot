@@ -4,11 +4,11 @@ import datetime
 
 def fileing(i):
     with open("Readme.md", "w") as file:
-        file.write("abc {}".format(i))
+        file.write("\n## abc".format(i))
         file.close()
         
 def load():
-    start_date = datetime.date(2022, 1, 1)
+    start_date = datetime.date(2022, 01, 1)
     end_date = datetime.date(2022, 12, 1)
     delta = datetime.timedelta(days=1)
     while (start_date <= end_date):
