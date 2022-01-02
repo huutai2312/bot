@@ -1,6 +1,6 @@
 import os
 import datetime
-# print("\x1B[9m \x1B[40m \x1B[32m")
+print("\x1B[9m \x1B[40m \x1B[32m")
 
 def fileing(i):
     with open("Readme.md", "w") as file:
