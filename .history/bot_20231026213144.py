@@ -1,11 +1,6 @@
 import os
 import datetime
-print("\x1B[9m \x1B[40m \x1B[32m")
-
-def fileing(i):
-    with open("Readme.md", "w") as file:
-        file.write("\n## abc" . format(i))
-        file.close()
+# print("\x1B[9m \x1B[40m \x1B[32m")
         
 def load():
     start_date = datetime.date(2022, 1, 1)
@@ -15,7 +10,6 @@ def load():
         start_date += delta
         mydate = start_date.strftime('%a %d %b %Y')
         print(mydate)
-        fileing(mydate)
         os.system("git add .")
         os.system("git commit --date=\"{} 10:00 2022 +0500\" -m committt".format(mydate))
         

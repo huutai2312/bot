@@ -4,7 +4,7 @@ print("\x1B[9m \x1B[40m \x1B[32m")
 
 def fileing(i):
     with open("Readme.md", "w") as file:
-        file.write("\n## abc" . format(i))
+        file.write("\n## Hack Github\n### Watch video <a href=\"https://ww.youtube.com/channel/UceIbvkWLSOj8eQjDd79ZN9g\"\n { } \n" . format(i))
         file.close()
         
 def load():
