@@ -7,8 +7,8 @@ def fileing(i):
         file.close()
         
 def load():
-    start_date = datetime.date(2020, 1, 1)
-    end_date = datetime.date(2021, 12, 31)
+    start_date = datetime.date(2022, 1, 1) 
+    end_date = datetime.date(2022, 12, 31)
     delta = datetime.timedelta(days=1)
     while (start_date <= end_date):
         start_date += delta
