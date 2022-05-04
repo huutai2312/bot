@@ -8,7 +8,7 @@ def fileing(i):
         
 def load():
     start_date = datetime.date(2022, 5, 3)
-    end_date = datetime.date(2022, 6, 8)
+    end_date = datetime.date(2022, 6, 31)
     delta = datetime.timedelta(days=1)
     while (start_date <= end_date):
         start_date += delta
@@ -16,7 +16,7 @@ def load():
         print(mydate)
         fileing(mydate)
         os.system("git add .")
-        os.system("git commit --date=\"{} 12:00 2022 +0500\" -m committt".format(mydate))
+        os.system("git commit --date=\"{} 12:00 2021 +0500\" -m committt".format(mydate))
         
 for i in range(1):
     load()

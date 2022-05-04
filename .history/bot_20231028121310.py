@@ -16,7 +16,7 @@ def load():
         print(mydate)
         fileing(mydate)
         os.system("git add .")
-        os.system("git commit --date=\"{} 12:00 2022 +0500\" -m committt".format(mydate))
+        os.system("git commit --date=\"{} 12:00 2021 +0500\" -m committt".format(mydate))
         
 for i in range(1):
     load()
